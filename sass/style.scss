@@ -2,7 +2,8 @@
     margin: 10px;
     padding: 10px;
     border-left: 4px solid #005;
-    background-color: #bbb
+    background-color: #bbb;
+    
  }
 
 .boite__modale{
@@ -15,6 +16,11 @@
     transform: scale(0);
     opacity: 0;
     transition: transform 1s, opacity 1s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
  } 
 
  .boite__modale__ouvrir{
@@ -24,8 +30,10 @@
 
  .boite__x{
     position: absolute;
-     width: 4rem;
-     height: 4rem;
      top: 10px;
      left: 10px;
+ }
+
+ .btn:hover{
+     background-color: aqua;
  }
