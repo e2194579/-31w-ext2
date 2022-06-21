@@ -1,15 +1,20 @@
 (function(){
     let elboite__modale
-    let elboite__x;    
+    let elboite__x;  
+    let messageInterieur = document.querySelector('.code_adr').innerHTML;
+    
     function creerBoiteModale(){
         elboite__modale = document.createElement('div');
         elboite__x = document.createElement('button');
+        elboite__modale.insertAdjacentHTML('beforeend',messageInterieur);
+
         elboite__modale.appendChild(elboite__x);
         elboite__modale.classList.add('boite__modale');
         elboite__x.classList.add('boite__x');
         elboite__x.innerHTML = 'X';
        let elbody = document.querySelector('body')
         elbody.appendChild(elboite__modale);
+
     }
 
     creerBoiteModale();
