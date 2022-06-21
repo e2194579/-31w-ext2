@@ -4,10 +4,13 @@
     border-left: 4px solid #005;
     background-color: #bbb;
     
+    
  }
 
 .boite__modale{
     background-color: aqua;
+    border: black solid 2px;
+    border-radius: 25px;
     position: absolute;
     width: 50vw;
     height: 50vh;
@@ -32,6 +35,8 @@
     position: absolute;
      top: 10px;
      left: 10px;
+     border: black solid 2px;
+     border-radius: 25px;
  }
 
  .btn:hover{
