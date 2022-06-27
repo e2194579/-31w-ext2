@@ -1,9 +1,11 @@
 <?php
 /**
  * Plugin name: Short_2
- * Description: Structure de plugin utilisant plusieurs fichiers permettant d'afficher une addresse.
  * Author: RBC
- * Plugin URI: https://github.com/e2194579
+ * Description: Structure de plugin utilisant plusieurs fichiers permettant d'afficher une addresse.
+ * Author URI: https://github.com/e2194579
+ * Plugin URI: https://github.com/e2194579/31w-ext2.git
+ * Test: https://eddym72.sg-host.com/582-3j3-creation-de-jeu-3d-75h/
  */
 function sh2_31w_enqueue()
 {
